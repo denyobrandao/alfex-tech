@@ -87,7 +87,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section with Gradient Background */}
-      <section className="pt-40 pb-24 bg-gradient-to-br from-white via-teal-50 to-white relative overflow-hidden">
+      <section className="pt-44 pb-24 bg-gradient-to-br from-white via-teal-50 to-white relative overflow-hidden">
         {/* Decorative elements */}
         <div className="absolute top-20 right-0 w-96 h-96 bg-teal-100 rounded-full -mr-48 opacity-30 blur-3xl"></div>
         <div className="absolute bottom-0 left-0 w-72 h-72 bg-teal-50 rounded-full -ml-36 opacity-40 blur-3xl"></div>
@@ -147,7 +147,7 @@ export default function Home() {
       <div className="h-px bg-gradient-to-r from-transparent via-teal-300 to-transparent"></div>
 
       {/* About Section */}
-      <section id="sobre" className="py-24 bg-white">
+      <section id="sobre" className="py-32 bg-white">
         <div className="container">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold text-gray-900 mb-4 text-center">Quem Somos</h2>
@@ -174,7 +174,7 @@ export default function Home() {
       </section>
 
       {/* Mission, Vision, Values */}
-      <section id="valores" className="py-24 bg-gradient-to-b from-teal-50 to-white">
+      <section id="valores" className="py-32 bg-gradient-to-b from-teal-50 to-white">
         <div className="container">
           <h2 className="text-4xl font-bold text-gray-900 mb-16 text-center">Missão, Visão e Valores</h2>
           
@@ -221,7 +221,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section id="servicos" className="py-24 bg-white">
+      <section id="servicos" className="py-32 bg-white">
         <div className="container">
           <h2 className="text-4xl font-bold text-gray-900 mb-4 text-center">Nossos Serviços</h2>
           <p className="text-center text-teal-600 font-semibold mb-16">Soluções completas para sua transformação digital</p>
@@ -273,7 +273,7 @@ export default function Home() {
       </section>
 
       {/* Differentials Section */}
-      <section className="py-24 bg-gradient-to-r from-teal-600 to-teal-700 text-white">
+      <section className="py-32 bg-gradient-to-r from-teal-600 to-teal-700 text-white">
         <div className="container">
           <h2 className="text-4xl font-bold mb-4 text-center">Diferenciais da Alfex</h2>
           <p className="text-center text-teal-100 mb-16 text-lg">Por que escolher a Alfex como sua parceira tecnológica</p>
@@ -296,7 +296,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contato" className="py-24 bg-white">
+      <section id="contato" className="py-32 bg-white">
         <div className="container">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Vamos Conversar?</h2>
