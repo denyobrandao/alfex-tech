@@ -304,7 +304,7 @@ export default function Home() {
               Entre em contato conosco
             </p>
             <p className="text-gray-700 mb-12 leading-relaxed">
-              Estamos prontos para entender seus desafios e apresentar como a tecnologia pode impulsionar sua empresa. Solicite uma consultoria gratuita.
+              Estamos prontos para entender seus desafios e apresentar como a tecnologia pode impulsionar sua empresa.
             </p>
 
             {/* Contact Info */}
