@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ChevronRight, Mail, Phone, Linkedin, Globe, CheckCircle2, ArrowRight, Zap, Shield, Rocket, TrendingUp } from "lucide-react";
+import { ChevronRight, Mail, Phone, MessageCircle, Globe, CheckCircle2, ArrowRight, Zap, Shield, Rocket, TrendingUp } from "lucide-react";
 import { useState } from "react";
 
 /**
@@ -72,7 +72,7 @@ export default function Home() {
         <div className="container flex items-center justify-between h-20">
           <div className="flex items-center gap-3">
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663110680933/UZnCnyK52yhs43Md4C8nJo/alfex-logo_271885e6.png" 
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663110680933/UZnCnyK52yhs43Md4C8nJo/alfex-logo-new_ca69ff65.png" 
               alt="Alfex Logo" 
               className="h-12 w-auto"
             />
@@ -327,7 +327,7 @@ export default function Home() {
 
               <a href="https://wa.me/556699653101?text=Olá%20Alfex!%20Gostaria%20de%20entrar%20em%20contato." target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-3 p-8 bg-gradient-to-br from-teal-50 to-white rounded-xl border border-teal-200 hover:border-teal-400 hover:shadow-lg transition">
                 <div className="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center">
-                  <Linkedin className="text-teal-600" size={24} />
+                  <MessageCircle className="text-teal-600" size={24} />
                 </div>
                 <span className="text-gray-900 font-semibold">WhatsApp</span>
                 <span className="text-gray-600 text-sm">66 99653-0101</span>
@@ -349,11 +349,11 @@ export default function Home() {
         <div className="container">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <img 
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663110680933/UZnCnyK52yhs43Md4C8nJo/alfex-logo_271885e6.png" 
-                alt="Alfex Logo" 
-                className="h-10 w-auto mb-4"
-              />
+            <img 
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663110680933/UZnCnyK52yhs43Md4C8nJo/alfex-logo-new_ca69ff65.png" 
+              alt="Alfex Logo" 
+              className="h-10 w-auto mb-4"
+            />
               <p className="text-gray-400 text-sm">Soluções em Tecnologia</p>
             </div>
 
