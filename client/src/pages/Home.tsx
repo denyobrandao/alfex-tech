@@ -13,6 +13,7 @@ import { useState } from "react";
 
 export default function Home() {
   const [activeService, setActiveService] = useState(0);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const services = [
     {
@@ -83,7 +84,29 @@ export default function Home() {
             <a href="#valores" className="text-gray-700 hover:text-teal-600 transition font-medium">Valores</a>
             <a href="#contato" className="text-gray-700 hover:text-teal-600 transition font-medium">Contato</a>
           </div>
+          
+          {/* Mobile Menu Button */}
+          <button 
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            className="md:hidden flex flex-col gap-1.5 p-2"
+          >
+            <div className={`w-6 h-0.5 bg-teal-600 transition-all ${mobileMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></div>
+            <div className={`w-6 h-0.5 bg-teal-600 transition-all ${mobileMenuOpen ? 'opacity-0' : ''}`}></div>
+            <div className={`w-6 h-0.5 bg-teal-600 transition-all ${mobileMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}></div>
+          </button>
         </div>
+        
+        {/* Mobile Menu */}
+        {mobileMenuOpen && (
+          <div className="md:hidden bg-white border-t border-teal-100 py-4">
+            <div className="container flex flex-col gap-4">
+              <a href="#sobre" onClick={() => setMobileMenuOpen(false)} className="text-gray-700 hover:text-teal-600 transition font-medium py-2">Sobre</a>
+              <a href="#servicos" onClick={() => setMobileMenuOpen(false)} className="text-gray-700 hover:text-teal-600 transition font-medium py-2">Serviços</a>
+              <a href="#valores" onClick={() => setMobileMenuOpen(false)} className="text-gray-700 hover:text-teal-600 transition font-medium py-2">Valores</a>
+              <a href="#contato" onClick={() => setMobileMenuOpen(false)} className="text-gray-700 hover:text-teal-600 transition font-medium py-2">Contato</a>
+            </div>
+          </div>
+        )}
       </nav>
 
       {/* Hero Section with Gradient Background */}
