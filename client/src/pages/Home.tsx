@@ -368,7 +368,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
+      <footer className="bg-teal-700 text-white py-12">
         <div className="container">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
@@ -409,7 +409,7 @@ export default function Home() {
           </div>
 
           <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
-            <p>&copy; 2024 Alfex – Soluções em Tecnologia. Todos os direitos reservados.</p>
+            <p>&copy; 2026 Alfex – Soluções em Tecnologia. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
