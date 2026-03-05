@@ -72,7 +72,7 @@ export default function Home() {
         <div className="container flex items-center justify-between h-20">
           <div className="flex items-center gap-3">
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663110680933/UZnCnyK52yhs43Md4C8nJo/alfex-logo-new_ca69ff65.png" 
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663110680933/UZnCnyK52yhs43Md4C8nJo/alfex-logo-header_23b9039f.png" 
               alt="Alfex Logo" 
               className="h-12 w-auto"
             />
