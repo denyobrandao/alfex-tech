@@ -131,7 +131,7 @@ export default function Home() {
                 <p className="text-gray-600">Empresas Atendidas</p>
               </div>
               <div>
-                <p className="text-3xl font-bold text-teal-600">15+</p>
+                <p className="text-3xl font-bold text-teal-600">19+</p>
                 <p className="text-gray-600">Anos de Experiência</p>
               </div>
               <div>
@@ -350,7 +350,7 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
             <img 
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663110680933/UZnCnyK52yhs43Md4C8nJo/alfex-logo-new_ca69ff65.png" 
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663110680933/UZnCnyK52yhs43Md4C8nJo/alfex-logo-dark_04df2c2a.png" 
               alt="Alfex Logo" 
               className="h-10 w-auto mb-4"
             />
