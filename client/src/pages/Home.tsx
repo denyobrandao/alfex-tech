@@ -68,13 +68,13 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white overflow-hidden">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-md border-b border-teal-100 z-50 shadow-sm">
-        <div className="container flex items-center justify-between h-20">
+      <nav className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-md border-b border-teal-100 z-50 shadow-md">
+        <div className="container flex items-center justify-between h-28">
           <div className="flex items-center gap-3">
             <img 
               src="https://d2xsxph8kpxj0f.cloudfront.net/310519663110680933/UZnCnyK52yhs43Md4C8nJo/alfex-logo-header_23b9039f.png" 
               alt="Alfex Logo" 
-              className="h-12 w-auto"
+              className="h-20 w-auto"
             />
           </div>
           <div className="hidden md:flex items-center gap-8">
@@ -87,7 +87,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section with Gradient Background */}
-      <section className="pt-32 pb-24 bg-gradient-to-br from-white via-teal-50 to-white relative overflow-hidden">
+      <section className="pt-40 pb-24 bg-gradient-to-br from-white via-teal-50 to-white relative overflow-hidden">
         {/* Decorative elements */}
         <div className="absolute top-20 right-0 w-96 h-96 bg-teal-100 rounded-full -mr-48 opacity-30 blur-3xl"></div>
         <div className="absolute bottom-0 left-0 w-72 h-72 bg-teal-50 rounded-full -ml-36 opacity-40 blur-3xl"></div>
