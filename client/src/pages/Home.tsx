@@ -27,17 +27,6 @@ export default function Home() {
       icon: Zap
     },
     {
-      title: "Infraestrutura e Redes",
-      description: "Implementação, organização e melhoria da infraestrutura tecnológica da empresa.",
-      items: [
-        "Configuração de redes",
-        "Estruturação de servidores",
-        "Segurança da informação",
-        "Monitoramento e otimização de sistemas"
-      ],
-      icon: Shield
-    },
-    {
       title: "Transformação Digital",
       description: "Ajudamos empresas a modernizar processos e integrar novas tecnologias para melhorar a produtividade e competitividade.",
       items: [
@@ -122,13 +111,17 @@ export default function Home() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-6 text-lg rounded-lg flex items-center gap-2 shadow-lg hover:shadow-xl transition">
-                Solicitar Consultoria
-                <ChevronRight size={20} />
-              </Button>
-              <Button variant="outline" className="border-teal-300 text-teal-600 hover:bg-teal-50 px-8 py-6 text-lg rounded-lg">
-                Saiba Mais
-              </Button>
+              <a href="https://wa.me/556699653101?text=Olá%20Alfex!%20Gostaria%20de%20solicitar%20uma%20consultoria%20em%20tecnologia." target="_blank" rel="noopener noreferrer">
+                <Button className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-6 text-lg rounded-lg flex items-center gap-2 shadow-lg hover:shadow-xl transition">
+                  Solicitar Consultoria
+                  <ChevronRight size={20} />
+                </Button>
+              </a>
+              <a href="#sobre">
+                <Button variant="outline" className="border-teal-300 text-teal-600 hover:bg-teal-50 px-8 py-6 text-lg rounded-lg">
+                  Saiba Mais
+                </Button>
+              </a>
             </div>
 
             {/* Stats */}
@@ -316,35 +309,37 @@ export default function Home() {
 
             {/* Contact Info */}
             <div className="grid md:grid-cols-3 gap-6 mb-12">
-              <a href="tel:" className="flex flex-col items-center gap-3 p-8 bg-gradient-to-br from-teal-50 to-white rounded-xl border border-teal-200 hover:border-teal-400 hover:shadow-lg transition">
+              <a href="tel:+556699653101" className="flex flex-col items-center gap-3 p-8 bg-gradient-to-br from-teal-50 to-white rounded-xl border border-teal-200 hover:border-teal-400 hover:shadow-lg transition">
                 <div className="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center">
                   <Phone className="text-teal-600" size={24} />
                 </div>
                 <span className="text-gray-900 font-semibold">Telefone</span>
-                <span className="text-gray-600 text-sm">[Número a definir]</span>
+                <span className="text-gray-600 text-sm">66 99653-0101</span>
               </a>
 
-              <a href="mailto:" className="flex flex-col items-center gap-3 p-8 bg-gradient-to-br from-teal-50 to-white rounded-xl border border-teal-200 hover:border-teal-400 hover:shadow-lg transition">
+              <a href="mailto:contato@alfex.com.br" className="flex flex-col items-center gap-3 p-8 bg-gradient-to-br from-teal-50 to-white rounded-xl border border-teal-200 hover:border-teal-400 hover:shadow-lg transition">
                 <div className="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center">
                   <Mail className="text-teal-600" size={24} />
                 </div>
                 <span className="text-gray-900 font-semibold">E-mail</span>
-                <span className="text-gray-600 text-sm">[Email a definir]</span>
+                <span className="text-gray-600 text-sm">contato@alfex.com.br</span>
               </a>
 
-              <a href="#" className="flex flex-col items-center gap-3 p-8 bg-gradient-to-br from-teal-50 to-white rounded-xl border border-teal-200 hover:border-teal-400 hover:shadow-lg transition">
+              <a href="https://wa.me/556699653101?text=Olá%20Alfex!%20Gostaria%20de%20entrar%20em%20contato." target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-3 p-8 bg-gradient-to-br from-teal-50 to-white rounded-xl border border-teal-200 hover:border-teal-400 hover:shadow-lg transition">
                 <div className="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center">
                   <Linkedin className="text-teal-600" size={24} />
                 </div>
-                <span className="text-gray-900 font-semibold">LinkedIn</span>
-                <span className="text-gray-600 text-sm">Visite nosso perfil</span>
+                <span className="text-gray-900 font-semibold">WhatsApp</span>
+                <span className="text-gray-600 text-sm">66 99653-0101</span>
               </a>
             </div>
 
-            <Button className="bg-teal-600 hover:bg-teal-700 text-white px-10 py-6 text-lg rounded-lg shadow-lg hover:shadow-xl transition flex items-center gap-2 mx-auto">
-              Enviar Mensagem
-              <ArrowRight size={20} />
-            </Button>
+            <a href="https://wa.me/556699653101?text=Olá%20Alfex!%20Gostaria%20de%20entrar%20em%20contato." target="_blank" rel="noopener noreferrer">
+              <Button className="bg-teal-600 hover:bg-teal-700 text-white px-10 py-6 text-lg rounded-lg shadow-lg hover:shadow-xl transition flex items-center gap-2 mx-auto">
+                Enviar Mensagem
+                <ArrowRight size={20} />
+              </Button>
+            </a>
           </div>
         </div>
       </section>
@@ -383,9 +378,9 @@ export default function Home() {
             <div>
               <h4 className="font-semibold mb-4">Contato</h4>
               <ul className="space-y-2 text-gray-400 text-sm">
-                <li><a href="mailto:" className="hover:text-teal-400 transition">E-mail</a></li>
-                <li><a href="tel:" className="hover:text-teal-400 transition">Telefone</a></li>
-                <li><a href="#" className="hover:text-teal-400 transition">LinkedIn</a></li>
+                <li><a href="mailto:contato@alfex.com.br" className="hover:text-teal-400 transition">E-mail</a></li>
+                <li><a href="tel:+556699653101" className="hover:text-teal-400 transition">Telefone</a></li>
+                <li><a href="https://wa.me/556699653101" target="_blank" rel="noopener noreferrer" className="hover:text-teal-400 transition">WhatsApp</a></li>
               </ul>
             </div>
           </div>
